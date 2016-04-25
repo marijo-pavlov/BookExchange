@@ -1,0 +1,85 @@
+html{
+	height: 100%;
+}
+body {
+  padding-top: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#react-container {
+	height: 100%;
+}
+
+.wrapper{
+	height: 100%;
+}
+
+.homebg{
+	/* Free image on: https://wall.alphacoders.com/big.php?i=26102 */
+	background: url('https://images2.alphacoders.com/261/26102.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+	text-align: center;
+	padding-top: 20%;
+	min-height: 100%;
+	margin: 0;
+}
+
+.overlayParent {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+.book {
+	margin-left: 2.5%;
+	margin-top: 2.5%;
+	color: white;
+	font-size: 2em;
+	cursor: pointer;
+	transition: opacity 0.25s ease;
+	opacity: 0.4;
+}
+
+.book:hover{
+	opacity: 1;
+}
+
+.request {
+	margin-left: 6%;
+	margin-top: 6%;
+	color: white;
+	font-size: 2em;
+	cursor: pointer;
+	transition: opacity 0.25s ease;
+	opacity: 0.4;	
+}
+
+.request:hover{
+	opacity: 1;
+}
+
+.request2 {
+	margin-right: 6%;
+	margin-top: 6%;
+	color: white;
+	font-size: 2em;
+	cursor: pointer;
+	transition: opacity 0.25s ease;
+	opacity: 0.4;	
+}
+
+.request2:hover{
+	opacity: 1;
+}
