@@ -2,8 +2,6 @@
 
 ## FreeCodeCamp project - Full stack Javascript app, Book Trading Club app written in Express, React and MongoDB.
 
-http://bookexchange-marijo-pavlov.c9users.io/
-
 ### User Stories
  - I can view all books posted by every user.
  - I can add a new book.
